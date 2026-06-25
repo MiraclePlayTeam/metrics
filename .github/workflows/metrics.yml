@@ -1,7 +1,6 @@
 name: GitHub Metrics
 
 on:
-  schedule: [{ cron: "0 0 * * *" }] # 매일 오전 9시 (UTC 기준 0시, 한국 시간 오전 9시)
   workflow_dispatch:
 
 jobs:
